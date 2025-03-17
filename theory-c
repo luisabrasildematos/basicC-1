@@ -1,0 +1,48 @@
+
+// revision of C concepts
+
+c language keywords:
+
+auto: auto defines automatic variables by default(local variables);
+recreated everytime funtion is executed
+// auto int var1;
+
+
+break and continue: break statement terminates the innermost loop
+when encountered; also terminates switch statement; continue
+statement skips statement after it inside loop.
+
+// for (i=1; i<=10; ++i)
+   {
+     if(i==3)
+     continue;
+     if (i==7)
+     break;
+     printf("%d ", i);
+   }
+
+
+output: when i is 3, the continue statement skips 3; when i is 7,
+break effect acts to terminate the for loop.
+
+// 1 2 4 5 6
+
+
+switch, case and default: switch and case is used when block of
+statement needs to be executed among many blocks.
+
+// switch(expression)
+   {
+     case "1": //some statement to execute when 1
+     break;
+     case "5": //some statement to execute when 5
+     break;
+     default; //some statement to execute when default
+  } 
+
+
+
+
+
+
+
