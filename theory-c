@@ -41,6 +41,26 @@ statement needs to be executed among many blocks.
   } 
 
 
+char: char keyword defines variable type character.
+
+// char alphabet;
+
+
+const: const declares a read-only variable whose value cannot
+be changed directly after initialization.
+
+// cont int y = 5;
+
+
+do and while: print the value of i till it is 9.
+
+// int i = 0;
+   do
+   {
+      printf("%d ",i);
+      i++;
+   }
+  while (i < 10);
 
 
 
