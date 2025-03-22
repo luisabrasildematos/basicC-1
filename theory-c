@@ -41,7 +41,7 @@ statement needs to be executed among many blocks.
   } 
 
 
-char: char keyword defines variable type character.
+char: char keyword declares variable type character.
 
 // char alphabet;
 
@@ -63,6 +63,27 @@ do and while: print the value of i till it is 9.
   while (i < 10);
 
 
+double and float: keywords representing decimal numbers.
+
+// float number = 3,14;
+// double longnumber = 3,14159...;
 
 
+if and else: if and else are used to make decisions.
 
+// if (y == 5 && y != 6){
+     printf("Number is 5, not 6");
+     }
+     else {
+     printf("Try again");
+     };
+
+
+enum: declares set of named intenger constants.
+
+// enum Day {SUN, MON, TUE, WED, THU, FRI, SAT};
+
+// enum Day today == FRI;
+   if (today == FRI){
+   printf("It's Friday");   
+   }
